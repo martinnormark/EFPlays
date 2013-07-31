@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.20617.1 PREVIEW
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFPlays.Web", "EFPlays.Web\EFPlays.Web.csproj", "{2E671DAC-3812-4984-8E66-59C1BF576126}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFPlays.DataAccess", "EFPlays.DataAccess\EFPlays.DataAccess.csproj", "{082B9EC1-CF94-4D62-82E9-ABA4A618E72C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFPlays.Model", "EFPlays.Model\EFPlays.Model.csproj", "{BEBDF686-A625-4BCB-8766-1CABC8DC2D46}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{A1FF0446-A8C8-4C17-95B5-2CB796194C87}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E671DAC-3812-4984-8E66-59C1BF576126}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E671DAC-3812-4984-8E66-59C1BF576126}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E671DAC-3812-4984-8E66-59C1BF576126}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E671DAC-3812-4984-8E66-59C1BF576126}.Release|Any CPU.Build.0 = Release|Any CPU
+		{082B9EC1-CF94-4D62-82E9-ABA4A618E72C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{082B9EC1-CF94-4D62-82E9-ABA4A618E72C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{082B9EC1-CF94-4D62-82E9-ABA4A618E72C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{082B9EC1-CF94-4D62-82E9-ABA4A618E72C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEBDF686-A625-4BCB-8766-1CABC8DC2D46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEBDF686-A625-4BCB-8766-1CABC8DC2D46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEBDF686-A625-4BCB-8766-1CABC8DC2D46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEBDF686-A625-4BCB-8766-1CABC8DC2D46}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
