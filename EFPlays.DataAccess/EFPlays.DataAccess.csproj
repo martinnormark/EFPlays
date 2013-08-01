@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DbInitialization.cs" />
     <Compile Include="EFPlaysDbContext.cs" />
     <Compile Include="Migrations\201308011947555_Initial.cs" />
     <Compile Include="Migrations\201308011947555_Initial.Designer.cs">

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EFPlays.DataAccess;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -16,6 +17,7 @@ namespace EFPlays.Web
         {
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+						DbInitialization.Run();
         }
     }
 }

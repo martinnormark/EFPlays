@@ -15,5 +15,7 @@ namespace EFPlays.Model
 		public string PhoneNumber { get; set; }
 
 		public DateTime DateOfBirth { get; set; }
+
+		public string Country { get; set; }
 	}
 }
