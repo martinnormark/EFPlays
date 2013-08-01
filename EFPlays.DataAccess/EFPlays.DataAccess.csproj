@@ -47,6 +47,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EFPlaysDbContext.cs" />
+    <Compile Include="Migrations\201308011947555_Initial.cs" />
+    <Compile Include="Migrations\201308011947555_Initial.Designer.cs">
+      <DependentUpon>201308011947555_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201308012011085_Add PhoneNumber to User.cs" />
+    <Compile Include="Migrations\201308012011085_Add PhoneNumber to User.Designer.cs">
+      <DependentUpon>201308012011085_Add PhoneNumber to User.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -59,6 +67,14 @@
       <Project>{bebdf686-a625-4bcb-8766-1cabc8dc2d46}</Project>
       <Name>EFPlays.Model</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201308011947555_Initial.resx">
+      <DependentUpon>201308011947555_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201308012011085_Add PhoneNumber to User.resx">
+      <DependentUpon>201308012011085_Add PhoneNumber to User.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
