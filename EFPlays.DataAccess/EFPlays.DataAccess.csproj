@@ -55,6 +55,10 @@
     <Compile Include="Migrations\201308012011085_Add PhoneNumber to User.Designer.cs">
       <DependentUpon>201308012011085_Add PhoneNumber to User.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201308012035580_Add DateOfBirth to User.cs" />
+    <Compile Include="Migrations\201308012035580_Add DateOfBirth to User.Designer.cs">
+      <DependentUpon>201308012035580_Add DateOfBirth to User.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -74,6 +78,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201308012011085_Add PhoneNumber to User.resx">
       <DependentUpon>201308012011085_Add PhoneNumber to User.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201308012035580_Add DateOfBirth to User.resx">
+      <DependentUpon>201308012035580_Add DateOfBirth to User.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

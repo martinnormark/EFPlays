@@ -1,4 +1,4 @@
-﻿// No usings needed
+﻿using System;
 
 namespace EFPlays.Model
 {
@@ -13,5 +13,7 @@ namespace EFPlays.Model
 		public string LastName { get; set; }
 
 		public string PhoneNumber { get; set; }
+
+		public DateTime DateOfBirth { get; set; }
 	}
 }
